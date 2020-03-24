@@ -8,8 +8,8 @@
     <a href="https://github.com/hughcube/laravel-migration/actions?query=workflow%3ALint">
         <img src="https://github.com/hughcube/laravel-migration/workflows/Lint/badge.svg" alt="Lint Actions status">
     </a>
-    <a href="https://styleci.io/repos/217659566">
-        <img src="https://github.styleci.io/repos/217659566/shield?branch=master" alt="StyleCI">
+    <a href="https://styleci.io/repos/249034690">
+        <img src="https://github.styleci.io/repos/249034690/shield?branch=master" alt="StyleCI">
     </a>
     <a href="https://scrutinizer-ci.com/g/hughcube/laravel-migration/?branch=master">
         <img src="https://scrutinizer-ci.com/g/hughcube/laravel-migration/badges/coverage.png?b=master" alt="Code Coverage">
