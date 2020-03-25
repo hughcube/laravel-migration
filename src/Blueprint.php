@@ -3,7 +3,7 @@
  * Created by IntelliJ IDEA.
  * User: hugh.li
  * Date: 2020/3/24
- * Time: 23:13
+ * Time: 23:13.
  */
 
 namespace HughCube\Laravel\Migrations;

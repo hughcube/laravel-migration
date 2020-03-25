@@ -3,7 +3,7 @@
  * Created by IntelliJ IDEA.
  * User: hugh.li
  * Date: 2020/3/24
- * Time: 22:42
+ * Time: 22:42.
  */
 
 namespace HughCube\Laravel\Migrations;
@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Schema as IlluminateSchema;
 class Schema extends IlluminateSchema
 {
     /**
-     * @inheritDoc
+     * {@inheritdoc}
      */
     public static function connection($name)
     {
@@ -27,7 +27,7 @@ class Schema extends IlluminateSchema
     }
 
     /**
-     * @inheritDoc
+     * {@inheritdoc}
      */
     protected static function getFacadeAccessor()
     {
@@ -37,9 +37,10 @@ class Schema extends IlluminateSchema
     }
 
     /**
-     * 引导系统调用我们自定义的 Grammar
+     * 引导系统调用我们自定义的 Grammar.
      *
      * @param Connection $connection
+     *
      * @return Builder
      */
     protected static function useCustomGrammar($connection)
