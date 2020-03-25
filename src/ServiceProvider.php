@@ -23,7 +23,5 @@ class ServiceProvider extends BaseServiceProvider implements DeferrableProvider
         $this->app->singleton('migration.creator', function ($app) {
             return new MigrationCreator($app['files'], $app->basePath('stubs'));
         });
-
-        $this->app->alias('Schema', Schema::class);
     }
 }

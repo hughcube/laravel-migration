@@ -21,9 +21,7 @@ class MySqlGrammar extends \Illuminate\Database\Schema\Grammars\MySqlGrammar
     {
         $sql = parent::compileCreate($blueprint, $command, $connection);
 
-        $sql = $this->compileCreateComment(
-            $sql, $connection, $blueprint
-        );
+        $sql = $this->compileCreateComment($sql, $connection, $blueprint);
 
         return $sql;
     }

@@ -57,5 +57,4 @@ class Schema extends IlluminateSchema
 
         return $builder;
     }
-
 }
