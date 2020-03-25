@@ -3,7 +3,7 @@
  * Created by IntelliJ IDEA.
  * User: hugh.li
  * Date: 2020/3/22
- * Time: 02:35
+ * Time: 02:35.
  */
 
 namespace HughCube\Laravel\Migrations;
@@ -19,6 +19,6 @@ class MigrationCreator extends IlluminateMigrationCreator
      */
     public function stubPath()
     {
-        return dirname(__DIR__) . '/stubs';
+        return dirname(__DIR__).'/stubs';
     }
 }
