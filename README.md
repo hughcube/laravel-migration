@@ -109,6 +109,9 @@ class CreateExampleTable extends Migration
         Schema::create('example', function (Blueprint $table) {
             $table->id();
             $table->timestamps();
+            
+            /** Set table comment */
+            $table->comment = "Example";
         });
     }
 
