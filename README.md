@@ -87,3 +87,40 @@ $app->register(\HughCube\Laravel\Migrations\ServiceProvider::class);
 exit($kernel->handle(new ArgvInput, new ConsoleOutput));
 
 ```
+
+## Example
+
+```php
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use HughCube\Laravel\Migrations\Blueprint;
+use HughCube\Laravel\Migrations\Schema;
+
+class CreateExampleTable extends Migration
+{
+    /**
+     * Run the migrations.
+     *
+     * @return void
+     */
+    public function up()
+    {
+        Schema::create('example', function (Blueprint $table) {
+            $table->id();
+            $table->timestamps();
+        });
+    }
+
+    /**
+     * Reverse the migrations.
+     *
+     * @return void
+     */
+    public function down()
+    {
+        Schema::dropIfExists('example');
+    }
+}
+
+```
